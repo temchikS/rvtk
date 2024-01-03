@@ -5,16 +5,19 @@ import Burger from './burger';
 export default function Header(){
         return <header>
             <div className="container">
-                <Burger/>
-                <img src={logo} alt="logo" width="10%"/>
+                
+                <img src={logo} alt="logo" className='logo'/>
+                
                 <div className='btn-group'>
-                <select name="changeLang" className='changeLang' defaultValue="ru">
-                    <option value="ru">рус</option>
-                    <option value="eng">eng</option>
-                    <option value="каз">каз</option>
-                </select>
+                    <select name="changeLang" className='changeLang' defaultValue="ru">
+                        <option value="ru">рус</option>
+                        <option value="eng">eng</option>
+                        <option value="каз">каз</option>
+                    </select>
                     <a href="login.html" className='Login'>Войти</a>
                 </div>
+                
             </div>
+            <Burger/>
         </header>
 }
