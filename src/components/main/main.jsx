@@ -8,12 +8,14 @@ export default function Main(){
                 <div className='left-side'>
                     <h1>Республиканский высший технологический колледж</h1>
                     <div className='links'>
-                        <a href="#" className="link">О колледже</a>
-                        <a href="#" className="link">Как поступить</a>
+                        <div className="rea">
+                            <h2>wer</h2>
+                        </div>
                     </div>    
                 </div>
-                <img src={rvtk}  alt="rvtk-image" width="100%"/>
+                <img className='rvtk-image' src={rvtk}  alt="rvtk-image" width="70%"/>
             </div>
+            
         </div>
     );
 }

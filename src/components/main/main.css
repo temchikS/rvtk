@@ -33,3 +33,7 @@
     color: white;
     transition: 0.3s;
 }
+.rvtk-image{
+    float: right;
+    margin-left: auto;
+}
