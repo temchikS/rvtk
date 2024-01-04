@@ -60,16 +60,29 @@
     margin: 50px 15px;
     text-align: center;
 }
+.info-cont{
+    display: flex;
+}
 @media screen and (max-width: 1200px){
-.links{
-    font-size: 2vw;
-    gap: 10px;
-}
-.link{
-    border: 2px solid rgb(7, 135, 254);
-    border-radius: 5px;
-}
-.our-college h1{
-    font-size: 3vw;
-}
+    .links{
+        font-size: 2vw;
+        gap: 10px;
+    }
+    .link{
+        border: 2px solid rgb(7, 135, 254);
+        border-radius: 5px;
+    }
+    .our-college h1{
+        font-size: 3vw;
+    }
+    .card{
+        width: 150px;
+        font-size: 2vw;
+    }
+    .card-img{
+        width: 40px;
+    }
+    .professions-section{
+        font-size: 2vw;
+    }
 }
