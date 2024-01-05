@@ -12,8 +12,15 @@
     margin-top: 10%;
     grid-area: left-side;
 }
+.left-side p{
+    margin-top: 1%;
+    margin: 15px;
+    grid-area: left-side;
+    font-size: 25px;
+}
 .our-college img{
     grid-area: right-side;
+    border-radius: 70px;
 }
 .links{
     display: flex;
@@ -33,7 +40,68 @@
     color: white;
     transition: 0.3s;
 }
-.rvtk-image{
-    float: right;
-    margin-left: auto;
+.card{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    width: 300px;
+    align-items: center;
+    border: 2px solid rgb(7, 135, 254);
+    border-radius: 13px;
+}
+.card-img{
+    width: 80px;
+    margin: 15px;
+    background-color: rgb(7, 135, 254);
+    border-radius: 100%;
+}
+.professions-section{
+    text-align: center;
+    margin: 50px 15px;
+}
+.professions{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 50px 15px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px){
+    .links{
+        font-size: 2vw;
+        gap: 10px;
+    }
+    .link{
+        border: 2px solid rgb(7, 135, 254);
+        border-radius: 5px;
+    }
+    .our-college h1{
+        font-size: 3vw;
+    }
+    .card{
+        width: 150px;
+        font-size: 2vw;
+    }
+    .card-img{
+        width: 40px;
+    }
+    .professions-section{
+        font-size: 2vw;
+    }
+    .left-side p{
+        font-size: 2vw;
+    }
+}
+.info-cont{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+.font{
+    display: grid;
+    width: 30%;
+    gap: 5px;
 }
