@@ -2,7 +2,7 @@ import './main.css';
 import Our_college from './our-college';
 import Professions from './prof/prof';
 import MiniMap from './mini-map';
-import Footer from '../footer/footer';
+import Footer from '../Footer/footer';
 export default function Main(){
     return(
         <div>

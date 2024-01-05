@@ -1,0 +1,22 @@
+footer {
+    display: flex;
+    background-color: #12bd3d;
+    padding: 20px;
+    text-align: center;
+
+  }
+footer ul{
+    list-style-type: none;
+}
+footer li{
+    margin-left: auto;
+}
+.imgfooter{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+.imgfooter img{
+width: 30px;
+margin-bottom: 10px;
+}
